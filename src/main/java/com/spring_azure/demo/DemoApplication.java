@@ -11,7 +11,8 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "Congrats, you have deployed in Azure successfully girll";
+		return  "Congrats, you have deployed in Azure successfully girll \n" +
+				"I love you, Kingson Ejikeme...";
 	}
 
 	public static void main(String[] args) {
